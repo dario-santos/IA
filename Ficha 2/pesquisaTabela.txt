@@ -1,0 +1,4 @@
+Experiência | BFS | DFS | Informada 
+1 BR-FA     | 710 | 710 | 710
+2 AV-CB     | 240 | 240 | 240
+3 VC-VI     | 250 | 250 | 250
