@@ -14,8 +14,8 @@ def mostra_tabuleiro(T):
 def acoes(T):
 	a = []
 
-	for i in range(0, 9):
-		if T[i] == 0:
+	for i, value in enumerate(T):
+		if value == 0:
 			a.append(i)
 	
 	return a
@@ -139,7 +139,7 @@ def joga_real(T):
 
 def jogo(p1, p2):
 	# cria tabuleiro vazio
-	T = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+	T = [0] * 9
 	
 	mostra_tabuleiro(T)
 

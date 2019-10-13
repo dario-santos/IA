@@ -12,8 +12,8 @@ def board_show(T):
 def board_actions(T):
 	a = []
 
-	for i in range(len(T)):
-		if T[i] == 0:
+	for i, value in enumerate(T):
+		if value == 0:
 			a.append(i)
 
 	return a
@@ -171,7 +171,6 @@ def main():
 	print_game_details(game_info)
 	
 	print("A seção demorou", int((time_end - time_start) / 60))
-
 
 
 
